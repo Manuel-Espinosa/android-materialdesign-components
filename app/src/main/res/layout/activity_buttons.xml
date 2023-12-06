@@ -1,0 +1,49 @@
+<layout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+    
+        <!-- Filled Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/filledButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Filled Button"
+            style="@style/Widget.Material3.Button" />
+    
+        <!-- Elevated Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/elevatedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Elevated Button"
+            style="@style/Widget.Material3.Button.ElevatedButton" />
+    
+        <!-- Tonal Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/tonalButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tonal Button"
+            style="@style/Widget.Material3.Button.TonalButton" />
+    
+        <!-- Outlined Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/outlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Outlined Button"
+            style="@style/Widget.Material3.Button.OutlinedButton" />
+    
+        <!-- Text Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/textButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Text Button"
+            style="@style/Widget.Material3.Button.TextButton" />
+    
+    </LinearLayout>
+</layout>

@@ -1,0 +1,10 @@
+
+<resources>
+    <string name="app_name">MaterialDesignApp</string>
+    <string name="buttons">Buttons</string>
+    <string name="text_fields">Text Fields</string>
+    <string name="date_pickers">Date Pickers</string>
+    <string name="time_pickers">Time Pickers</string>
+    <string name="sliders">Sliders</string>
+    <string name="checkboxes">Checkboxes</string>
+</resources>

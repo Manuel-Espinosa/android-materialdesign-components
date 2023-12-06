@@ -1,0 +1,39 @@
+<layout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Standard Checkbox -->
+        <CheckBox
+            android:id="@+id/checkbox_standard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Standard Checkbox" />
+
+        <!-- Customized Checkbox -->
+        <CheckBox
+            android:id="@+id/checkbox_custom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Custom Checkbox"/>
+
+        <!-- Disabled Checkbox -->
+        <CheckBox
+            android:id="@+id/checkbox_disabled"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Disabled Checkbox"
+            android:enabled="false" />
+
+        <!-- Checked Checkbox -->
+        <CheckBox
+            android:id="@+id/checkbox_checked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Checked Checkbox"
+            android:checked="true" />
+
+    </LinearLayout>
+</layout>
